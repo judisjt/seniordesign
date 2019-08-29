@@ -22,3 +22,11 @@ Cincinnati Children's Hospital | August 2017 & May 2018
     3. Created a new ecommerce system using sitefinity custom widgets for their asset disposal team
     4. Developed an application to add items to the grab and go lunch application
     
+    
+    
+#### __Cincinnati Children's Hospital
+* Developed website for NICU patientss and families using angular 4+ 
+* Used google firebase for holding our information in a database
+* Learned about making a PWA (progressive web apps) and how to make our app one using node js and angular
+* Used Oauth2 for authentication
+
