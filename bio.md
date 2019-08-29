@@ -12,7 +12,7 @@ Cincinnati Children's Hospital | August 2017 & May 2018
 
 **Skills**
 
-__Great American Insurance Group__
+_Great American Insurance Group_
 * Learned and developed in C#
 * Worked in ASP .NET MVC for the first time
 * More proficient in Visual Studio
