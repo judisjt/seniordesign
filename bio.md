@@ -9,3 +9,5 @@ Company | Date
 ------------ | -------------
 Great American Insurance Group | January - August 2019
 Cincinnati Children's Hospital | August 2017 & May 2018
+
+**Skills**
