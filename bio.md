@@ -24,9 +24,12 @@ Cincinnati Children's Hospital | August 2017 & May 2018
     
     
     
-#### __Cincinnati Children's Hospital
+#### __Cincinnati Children's Hospital__
 * Developed website for NICU patientss and families using angular 4+ 
 * Used google firebase for holding our information in a database
 * Learned about making a PWA (progressive web apps) and how to make our app one using node js and angular
 * Used Oauth2 for authentication
 
+### Project Sought ###
+
+I guess I would be seeking a project that would have a website or mobile part to it that needs front-end development because that is really where all my experience lies so far. I have some minor back end experience, but not that much.
