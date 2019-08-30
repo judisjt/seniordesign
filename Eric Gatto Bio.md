@@ -31,4 +31,4 @@ Email Address | gattoej@mail.uc.edu
 
 ## Project Sought
 
-I am looking for projects that require software development. A project that could be useful or informative a large audience would interest me.
+I am looking for projects that require software development. A project that could be useful or informative to a large audience would interest me.
