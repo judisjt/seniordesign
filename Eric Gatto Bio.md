@@ -19,7 +19,7 @@ Email Address | gattoej@mail.uc.edu
 * Performed mass data pulls on DB's for information gathering
 * Created numerous presentations for data interpretation 
 
-##Languages and Technologies
+## Languages and Technologies
 
 * C#
 * VBA
