@@ -1,11 +1,20 @@
-Music Learning Experience
+ ## Music Learning Experience
 
 John Rose - rose2j4@mail.uc.edu
 Eric Gatto - gattoej@mail.uc.edu
 Adam Tait - taitah@mail.uc.edu
 Jason Judis - judisjt@mail.uc.edu
 
-TBD
+Name | Email
+------------ | -------------
+John Rose | rose2j4@mail.uc.edu
+Eric Gatto | gattoej@mail.uc.edu
+Adam Tait | taitah@mail.uc.edu
+Jason Judis | judisjt@mail.uc.edu
+
+ We are in between two advisors so it is TBD for now.
+ 
+ ## Application Information
 
 We want to make an application to help children learn about music and take a liking to it at an early age.
 
