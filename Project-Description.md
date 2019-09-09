@@ -1,10 +1,5 @@
  # Music Learning Experience
 
-John Rose - rose2j4@mail.uc.edu
-Eric Gatto - gattoej@mail.uc.edu
-Adam Tait - taitah@mail.uc.edu
-Jason Judis - judisjt@mail.uc.edu
-
 Name | Email
 ------------ | -------------
 John Rose | rose2j4@mail.uc.edu
