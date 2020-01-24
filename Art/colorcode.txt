@@ -1,0 +1,8 @@
+c = purple
+d = red
+e = orange
+f = yellow
+g = green
+a = cyan
+b = blue
+c = purple
