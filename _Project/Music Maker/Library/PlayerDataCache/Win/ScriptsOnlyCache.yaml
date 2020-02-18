@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Parallax
     - PressButtonContinue
     - mainMenu
     Unity.TextMeshPro.dll:
@@ -44,23 +45,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9906}
     - Class: 114
-      Script: {instanceID: 10278}
+      Script: {instanceID: 9956}
     - Class: 114
-      Script: {instanceID: 10378}
+      Script: {instanceID: 10282}
     - Class: 114
-      Script: {instanceID: 10630}
+      Script: {instanceID: 10382}
     - Class: 114
-      Script: {instanceID: 10844}
+      Script: {instanceID: 10634}
     - Class: 114
-      Script: {instanceID: 11034}
+      Script: {instanceID: 10848}
     - Class: 114
-      Script: {instanceID: 11094}
+      Script: {instanceID: 11038}
     - Class: 114
-      Script: {instanceID: 11368}
+      Script: {instanceID: 11098}
     - Class: 114
-      Script: {instanceID: 11460}
+      Script: {instanceID: 11372}
     - Class: 114
-      Script: {instanceID: 11492}
+      Script: {instanceID: 11464}
+    - Class: 114
+      Script: {instanceID: 11496}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -97,23 +100,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9906}
     - Class: 114
-      Script: {instanceID: 10278}
+      Script: {instanceID: 10282}
     - Class: 114
-      Script: {instanceID: 10378}
+      Script: {instanceID: 10382}
     - Class: 114
-      Script: {instanceID: 10630}
+      Script: {instanceID: 10634}
     - Class: 114
-      Script: {instanceID: 10844}
+      Script: {instanceID: 10848}
     - Class: 114
-      Script: {instanceID: 11034}
+      Script: {instanceID: 11038}
     - Class: 114
-      Script: {instanceID: 11094}
+      Script: {instanceID: 11098}
     - Class: 114
-      Script: {instanceID: 11368}
+      Script: {instanceID: 11372}
     - Class: 114
-      Script: {instanceID: 11460}
+      Script: {instanceID: 11464}
     - Class: 114
-      Script: {instanceID: 11492}
+      Script: {instanceID: 11496}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -154,25 +157,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9906}
     - Class: 114
-      Script: {instanceID: 10278}
+      Script: {instanceID: 10172}
     - Class: 114
-      Script: {instanceID: 10300}
+      Script: {instanceID: 10282}
     - Class: 114
-      Script: {instanceID: 10844}
+      Script: {instanceID: 10304}
     - Class: 114
-      Script: {instanceID: 10858}
+      Script: {instanceID: 10848}
     - Class: 114
-      Script: {instanceID: 11034}
+      Script: {instanceID: 10862}
     - Class: 114
-      Script: {instanceID: 11094}
+      Script: {instanceID: 11038}
     - Class: 114
-      Script: {instanceID: 11256}
+      Script: {instanceID: 11098}
     - Class: 114
-      Script: {instanceID: 11368}
+      Script: {instanceID: 11260}
     - Class: 114
-      Script: {instanceID: 11460}
+      Script: {instanceID: 11372}
     - Class: 114
-      Script: {instanceID: 14054}
+      Script: {instanceID: 11464}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -280,6 +283,12 @@ ScriptsOnlyBuild:
     className: TMP_InputField
   - hash:
       serializedVersion: 2
+      Hash: 8ed0c00b8b4327614aef047c92957e40
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Parallax
+  - hash:
+      serializedVersion: 2
       Hash: 7ab0e790220bdca831fdd886b339039d
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -338,6 +347,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PressButtonContinue
   - hash:
       serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
@@ -806,12 +821,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PressButtonContinue
   platform: 5
   scenePathNames:
   - Assets/Scenes/Start.unity
