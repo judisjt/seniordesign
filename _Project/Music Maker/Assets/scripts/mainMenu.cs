@@ -18,5 +18,10 @@ public class mainMenu : MonoBehaviour
         Debug.Log("QUIT");
 
     }
+    public void GoBackToMenu() {
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+
+    }
 
 }
