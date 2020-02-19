@@ -66,6 +66,7 @@
     <Compile Include="Assets\scripts\mainMenu.cs" />
     <Compile Include="Assets\scripts\Parallax.cs" />
     <Compile Include="Assets\scripts\PressButtonContinue.cs" />
+    <Compile Include="Assets\scripts\RUN.cs" />
     <Compile Include="Assets\scripts\slider_text_script.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
