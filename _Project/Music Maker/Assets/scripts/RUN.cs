@@ -5,15 +5,15 @@ using UnityEngine.UI;
 
 public class RUN : MonoBehaviour
 {
-    public float speed;
+    private float speed;
     public float bpm;
     public Transform sheet;
-    public Transform[] notes;
-    public GameObject currentStaff;
+    public Transform cursor;
     public Transform beat1;
     public Transform beat2;
-    public float distance;
+    private float distance;
     public Slider slider;
+    public bool isPaused;
 
     // Start is called before the first frame update
     void Start()
@@ -26,7 +26,22 @@ public class RUN : MonoBehaviour
 
     void Update()
     {
-        sheet.transform.Translate(Vector2.left * speed * Time.deltaTime);
+        if (Input.GetButtonDown("Pause"))
+        {
+            if (!isPaused)
+            {
+                isPaused = true;
+            }
+            else
+            {
+                isPaused = false;
+            }
+        }
+        if (!isPaused)
+        {
+            sheet.transform.Translate(Vector2.left * speed * Time.deltaTime);
+            cursor.transform.Translate(Vector2.right * speed * Time.deltaTime);
+        }
     }
 
     public void StartScrolling()
