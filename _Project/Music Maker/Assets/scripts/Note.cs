@@ -11,6 +11,8 @@ public class Note : MonoBehaviour
 
     public Cursor cursor;
 
+    public GameObject run;
+
 
     // Start is called before the first frame update
     void Start()
@@ -29,18 +31,21 @@ public class Note : MonoBehaviour
 
     public void InstatiateNote(GameObject note, bool replace = false)
     {
-        Debug.Log("Instantiating: " + note.name);
-        if (!placedNote)
+        if(!run.GetComponent<RUN>().isPaused)
         {
-            placedNote = Instantiate(note, this.gameObject.transform);
-        }
-        note.transform.position = new Vector2(0, note.transform.position.y);
-
-        if (placedNote && replace)
-        {
-            Destroy(placedNote);
-            placedNote = Instantiate(note, this.gameObject.transform);
+            Debug.Log("Instantiating: " + note.name);
+            if (!placedNote)
+            {
+                placedNote = Instantiate(note, this.gameObject.transform);
+            }
             note.transform.position = new Vector2(0, note.transform.position.y);
+
+            if (placedNote && replace)
+            {
+                Destroy(placedNote);
+                placedNote = Instantiate(note, this.gameObject.transform);
+                note.transform.position = new Vector2(0, note.transform.position.y);
+            }
         }
     }
 

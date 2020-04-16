@@ -17,15 +17,19 @@ public class Save : MonoBehaviour
 
 	public Text fileName;
 
+	public GameObject run;
+
+
 	public void SaveSheet()
 	{
-		//Saving(staffs[0]);
+
+   		System.IO.File.AppendAllText(@"save/" + fileName.text + ".txt",
+   									 run.GetComponent<RUN>().bpm + "\n");
 
 		notes = GetComponentsInChildren<Note>();
 
         foreach (Note note in notes)
         {
-        	Debug.Log("Note: " + note.placedNote);
        		System.IO.File.AppendAllText(@"save/" + fileName.text + ".txt",
        									 note.placedNote + "\n");
        	}
@@ -33,21 +37,5 @@ public class Save : MonoBehaviour
 
 
 	}
-	/*
-	string path = "Path/To/Save/Location";
-	
-	private static bool Saving(GameObject obj)
-	{
-	    Debug.Log(Application.persistentDataPath);
-
-        // Stream the file with a File Stream. (Note that File.Create() 'Creates' or 'Overwrites' a file.)
-        FileStream file = File.Create(Application.persistentDataPath + "/Data.dat");
-
-
-        // Close the file to prevent any corruptions
-        file.Close();
-
-	    return true;
-	}*/
 
 }

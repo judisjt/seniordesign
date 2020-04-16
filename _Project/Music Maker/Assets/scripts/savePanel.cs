@@ -7,9 +7,11 @@ public class savePanel : MonoBehaviour
 {
 
 	public GameObject panel;
+	public GameObject run;
 
 	public void EnablePanel()
 	{
+		run.GetComponent<RUN>().isPaused = true;
 		panel.SetActive(true);
 	}
 }
