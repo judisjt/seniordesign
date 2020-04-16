@@ -13,6 +13,7 @@ public class Note : MonoBehaviour
 
     public GameObject run;
 
+    public int audioIndex = 8;
 
     // Start is called before the first frame update
     void Start()
@@ -37,6 +38,7 @@ public class Note : MonoBehaviour
             if (!placedNote)
             {
                 placedNote = Instantiate(note, this.gameObject.transform);
+                audioIndex = placedNote.GetComponent<AudioIndex>().AudioInd;
             }
             note.transform.position = new Vector2(0, note.transform.position.y);
 

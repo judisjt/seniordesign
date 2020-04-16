@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7820319654822285295}
   - component: {fileID: 7345937033774493276}
   - component: {fileID: 434775541993183828}
+  - component: {fileID: 2134441925462895716}
   m_Layer: 5
   m_Name: B_Whole
   m_TagString: Untagged
@@ -73,3 +74,16 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &2134441925462895716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4831567084810960025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0295b2775e7f2441892f93e6786c045, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioInd: 6
