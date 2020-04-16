@@ -21,6 +21,9 @@ public class Cursor : MonoBehaviour
 
     public AudioClip[] audioClips;
     private AudioSource audioSource;
+    public bool onLoad;
+    public GameObject Run;
+
 
     void Update()
     {
@@ -173,20 +176,41 @@ public class Cursor : MonoBehaviour
                 }
                 ReplaceNote();
                 currentNote = currentPlace.GetComponent<Note>();
-                currentNote.DeleteNote();
+                //currentNote.DeleteNote();
             }
             else
             {
                 noteCount = 0;
             }
+            if (onLoad)
+            {              
+                currentPlace = collision.gameObject;
+                currentNote = currentPlace.GetComponent<Note>();
+                if (currentNote.placedNote)
+                {
+                    StopAudio();
+                }
+                currentNoteAudio = currentPlace.GetComponent<AudioSource>();  
+                currentNoteAudio.clip = audioClips[currentNote.audioIndex];
+                if (currentNote.audioIndex != 8)
+                {
+                    Debug.Log("currentNote.placedNote " + currentNote.placedNote);
+                    if (currentNote.placedNote)
+                    {   
+                        PlayAudio();
+                    }
+                    
+                }
+            }
         }
-        Debug.Log(noteCount);
     }
+
+   
+
+
 
     void PlaceNote(int noteID)
     {
-        Debug.Log(currentPlace);
-        Debug.Log(allPlaces);
         note = notes[noteIdx];
         currentNote = currentPlace.GetComponent<Note>();
         currentNoteAudio = currentPlace.GetComponent<AudioSource>();
@@ -203,6 +227,7 @@ public class Cursor : MonoBehaviour
 
     public void PlayAudio()
     {
+
         currentNoteAudio.Play();
     }
 
@@ -219,7 +244,7 @@ public class Cursor : MonoBehaviour
 
     public void StopAudio()
     {
-        StartCoroutine(FadeOut(currentNoteAudio, 1f));
+        StartCoroutine(FadeOut(currentNoteAudio, .75f));
     }
 
 
