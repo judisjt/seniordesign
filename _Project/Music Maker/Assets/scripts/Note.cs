@@ -12,6 +12,7 @@ public class Note : MonoBehaviour
     public Cursor cursor;
 
     public GameObject run;
+    public GameObject runTutorial;
 
     public int audioIndex = 8;
 
@@ -32,7 +33,12 @@ public class Note : MonoBehaviour
 
     public void InstatiateNote(GameObject note, bool replace = false)
     {
-        if(!run.GetComponent<RUN>().isPaused)
+        bool run_variable;
+        if(run)
+            run_variable = run.GetComponent<RUN>().isPaused;
+        else
+            run_variable = runTutorial.GetComponent<RUN_TUTORIAL>().isPaused;
+        if(!run_variable)
         {
             Debug.Log("Instantiating: " + note.name);
             if (!placedNote)
