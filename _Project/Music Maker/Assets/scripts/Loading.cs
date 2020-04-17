@@ -21,7 +21,7 @@ public class Loading : MonoBehaviour
         int count = 0;
         
         notes = GetComponentsInChildren<Note>();
-        foreach (string line in File.ReadLines(@"save/" + "bpmcheck.txt"))
+        foreach (string line in File.ReadLines(PlayerPrefs.GetString("LoadPath")))
         {
             if (count == 0)
             {

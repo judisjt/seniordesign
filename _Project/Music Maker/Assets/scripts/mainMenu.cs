@@ -16,6 +16,11 @@ public class mainMenu : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
 
+    public void PlayLoad()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+    }
+
     public void BackToMenuFromTutorial()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
@@ -30,6 +35,12 @@ public class mainMenu : MonoBehaviour
     public void GoBackToMenu() {
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+
+    }
+
+    public void GoBackFromLoad() {
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
 
     }
 
