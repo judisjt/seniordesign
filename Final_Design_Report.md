@@ -35,6 +35,10 @@ We created a device and application that can easily teach kids about music. This
 [John Rose](https://github.com/judisjt/seniordesign/blob/master/Final_Design_Report/Initial_Assessment_John_Rose.md)
 
 ### Final Assessments
+[Adam Tait](https://github.com/judisjt/seniordesign/blob/master/Final_Design_Report/Final_Assessment_Adam_Tait.docx)
+
+[John Rose](https://github.com/judisjt/seniordesign/blob/master/Final_Design_Report/Final_Assessment_John_Rose.docx)
+
 
 ## Hour Summary
 [Fall Hours](https://github.com/judisjt/seniordesign/blob/master/Final_Design_Report/Fall_Hours.xlsx)
